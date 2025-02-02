@@ -58,13 +58,7 @@ cd companies
 npm install
 ```
 
-3. **Set up environment**
-```bash
-# Create .env file and add:
-VITE_API_URL=http://your-backend-url
-```
-
-4. **Start development server**
+3. **Start development server**
 ```bash
 npm run dev
 ```
@@ -125,7 +119,7 @@ This project is licensed under the MIT License.
 
 <div align="center">
 
-**[View Demo](http://your-demo-link.com)** • **[Report Bug](https://github.com/falkoniydev/companies/issues)** • **[Request Feature](https://github.com/falkoniydev/companies/issues)**
+**[View Demo](https://companies-one.vercel.app/login)** • **[Report Bug](https://github.com/falkoniydev/companies/issues)** • **[Request Feature](https://github.com/falkoniydev/companies/issues)**
 
 </div>
 
