@@ -1,97 +1,136 @@
-Company Management System
-A web application for managing company information with authentication and CRUD operations.
-Features
+# Company Management System
 
-User Authentication (Login/Register)
-Company Management
+<div align="center">
+  <h3>A modern web application for managing company information</h3>
+</div>
 
-Create new companies
-View list of companies
-Edit company details
-Delete companies
+## ✨ Features
 
+- 🔐 **User Authentication**
+  - Secure login/register system
+  - Protected routes
+  - Token-based authentication
 
-Pagination
-Search functionality
+- 💼 **Company Management**
+  - Create new companies
+  - View comprehensive list
+  - Edit company details
+  - Delete companies safely
 
-Technologies Used
+- 🎯 **Advanced Features**
+  - Real-time search functionality
+  - Smart pagination
+  - Responsive design
+  - User-friendly interface
 
-Frontend:
+## 🛠 Technologies
 
-React 18
-TypeScript
-Ant Design (UI Framework)
-React Query (State Management)
-Axios (HTTP Client)
-React Router (Navigation)
-Tailwind CSS (Styling)
+<div align="center">
 
+| Category | Technologies |
+|----------|-------------|
+| Core | ![React](https://img.shields.io/badge/React-18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-blue) |
+| UI | ![Ant Design](https://img.shields.io/badge/Ant%20Design-blue) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-blue) |
+| State | ![React Query](https://img.shields.io/badge/React%20Query-blue) |
+| Routing | ![React Router](https://img.shields.io/badge/React%20Router-blue) |
+| HTTP | ![Axios](https://img.shields.io/badge/Axios-blue) |
+| Tools | ![ESLint](https://img.shields.io/badge/ESLint-blue) ![Prettier](https://img.shields.io/badge/Prettier-blue) ![Vite](https://img.shields.io/badge/Vite-blue) |
 
-Additional Tools:
+</div>
 
-ESLint (Code Linting)
-Prettier (Code Formatting)
-Vite (Build Tool)
+## 🚀 Getting Started
 
+### Prerequisites
 
+- Node.js (v16 or higher)
+- npm or yarn
 
-Getting Started
-Prerequisites
+### Installation
 
-Node.js (version 16 or higher)
-npm or yarn
+1. **Clone the repository**
+```bash
+git clone https://github.com/falkoniydev/companies.git
+```
 
-Installation
-
-Clone the repository
-
-bashCopygit clone [https://github.com/falkoniydev/companies.git](https://github.com/falkoniydev/companies.git)
-
-Install dependencies
-
-bashCopycd company-management-system
+2. **Install dependencies**
+```bash
+cd companies
 npm install
-# or
-yarn install
+```
 
-Configure environment variables
-Create a .env file in the root directory and add:
+3. **Set up environment**
+```bash
+# Create .env file and add:
+VITE_API_URL=http://your-backend-url
+```
 
-envCopyVITE_API_URL=http://your-backend-url
+4. **Start development server**
+```bash
+npm run dev
+```
 
-Start the development server
+## 📖 Usage Guide
 
-bashCopynpm run dev
-# or
-yarn dev
-Usage
+1. **Authentication**
+   - Register new account
+   - Login with credentials
 
-Register a new account or login with existing credentials
-Navigate to the dashboard to manage companies
-Use the search bar to find specific companies
-Add new companies using the "Add Company" button
-Edit or delete companies using the action menu
-Use pagination to navigate through the list of companies
+2. **Dashboard**
+   - View all companies
+   - Use search functionality
+   - Navigate through pages
 
-Project Structure
-Copysrc/
-├── components/         # Reusable UI components
-├── pages/             # Page components
-├── services/          # API service layers
-├── lib/              # Configuration and utilities
-├── types/            # TypeScript type definitions
-├── routes/           # Route configurations
-└── assets/           # Static assets
-Contributing
+3. **Company Management**
+   - Add new companies
+   - Edit existing ones
+   - Remove companies
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+## 📁 Project Structure
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details
-Contact
-Shokhboz Nabiev - @falkoniydev - falkoniydev@gmail.com
-Project Link: [https://github.com/falkoniydev/companies](https://github.com/falkoniydev/companies)
+```
+src/
+├── components/       # UI Components
+│   ├── Modal/
+│   └── Table/
+├── pages/           # Main Pages
+│   ├── Dashboard/
+│   ├── Login/
+│   └── Register/
+├── services/        # API Services
+├── lib/            # Utilities
+├── types/          # TS Types
+└── routes/         # Routing
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 👤 Contact
+
+**Shokhboz Nabiev**
+- GitHub: [@falkoniydev](https://github.com/falkoniydev)
+- Telegram: [@falkoniydev](https://t.me/falkoniydev)
+- Email: falkoniydev@gmail.com
+
+<div align="center">
+
+**[View Demo](http://your-demo-link.com)** • **[Report Bug](https://github.com/falkoniydev/companies/issues)** • **[Request Feature](https://github.com/falkoniydev/companies/issues)**
+
+</div>
+
+---
+
+<div align="center">
+  Made with ❤️ by Shokhboz Nabiev
+</div>
