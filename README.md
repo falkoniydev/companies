@@ -1,50 +1,97 @@
-# React + TypeScript + Vite
+Company Management System
+A web application for managing company information with authentication and CRUD operations.
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+User Authentication (Login/Register)
+Company Management
 
-Currently, two official plugins are available:
+Create new companies
+View list of companies
+Edit company details
+Delete companies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Pagination
+Search functionality
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+Frontend:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+React 18
+TypeScript
+Ant Design (UI Framework)
+React Query (State Management)
+Axios (HTTP Client)
+React Router (Navigation)
+Tailwind CSS (Styling)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Additional Tools:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+ESLint (Code Linting)
+Prettier (Code Formatting)
+Vite (Build Tool)
+
+
+
+Getting Started
+Prerequisites
+
+Node.js (version 16 or higher)
+npm or yarn
+
+Installation
+
+Clone the repository
+
+bashCopygit clone [https://github.com/falkoniydev/companies.git](https://github.com/falkoniydev/companies.git)
+
+Install dependencies
+
+bashCopycd company-management-system
+npm install
+# or
+yarn install
+
+Configure environment variables
+Create a .env file in the root directory and add:
+
+envCopyVITE_API_URL=http://your-backend-url
+
+Start the development server
+
+bashCopynpm run dev
+# or
+yarn dev
+Usage
+
+Register a new account or login with existing credentials
+Navigate to the dashboard to manage companies
+Use the search bar to find specific companies
+Add new companies using the "Add Company" button
+Edit or delete companies using the action menu
+Use pagination to navigate through the list of companies
+
+Project Structure
+Copysrc/
+├── components/         # Reusable UI components
+├── pages/             # Page components
+├── services/          # API service layers
+├── lib/              # Configuration and utilities
+├── types/            # TypeScript type definitions
+├── routes/           # Route configurations
+└── assets/           # Static assets
+Contributing
+
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details
+Contact
+Shokhboz Nabiev - @falkoniydev - falkoniydev@gmail.com
+Project Link: [https://github.com/falkoniydev/companies](https://github.com/falkoniydev/companies)
