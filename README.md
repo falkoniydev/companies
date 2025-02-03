@@ -1,50 +1,130 @@
-# React + TypeScript + Vite
+# Company Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <h3>A modern web application for managing company information</h3>
+</div>
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 **User Authentication**
+  - Secure login/register system
+  - Protected routes
+  - Token-based authentication
 
-## Expanding the ESLint configuration
+- 💼 **Company Management**
+  - Create new companies
+  - View comprehensive list
+  - Edit company details
+  - Delete companies safely
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🎯 **Advanced Features**
+  - Real-time search functionality
+  - Smart pagination
+  - Responsive design
+  - User-friendly interface
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠 Technologies
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+<div align="center">
+
+| Category | Technologies |
+|----------|-------------|
+| Core | ![React](https://img.shields.io/badge/React-18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-blue) |
+| UI | ![Ant Design](https://img.shields.io/badge/Ant%20Design-blue) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-blue) |
+| State | ![React Query](https://img.shields.io/badge/React%20Query-blue) |
+| Routing | ![React Router](https://img.shields.io/badge/React%20Router-blue) |
+| HTTP | ![Axios](https://img.shields.io/badge/Axios-blue) |
+| Tools | ![ESLint](https://img.shields.io/badge/ESLint-blue) ![Prettier](https://img.shields.io/badge/Prettier-blue) ![Vite](https://img.shields.io/badge/Vite-blue) |
+
+</div>
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/falkoniydev/companies.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. **Install dependencies**
+```bash
+cd companies
+npm install
 ```
+
+3. **Start development server**
+```bash
+npm run dev
+```
+
+## 📖 Usage Guide
+
+1. **Authentication**
+   - Register new account
+   - Login with credentials
+
+2. **Dashboard**
+   - View all companies
+   - Use search functionality
+   - Navigate through pages
+
+3. **Company Management**
+   - Add new companies
+   - Edit existing ones
+   - Remove companies
+
+## 📁 Project Structure
+
+```
+src/
+├── components/       # UI Components
+│   ├── Modal/
+│   └── Table/
+├── pages/           # Main Pages
+│   ├── Dashboard/
+│   ├── Login/
+│   └── Register/
+├── services/        # API Services
+├── lib/            # Utilities
+├── types/          # TS Types
+└── routes/         # Routing
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 👤 Contact
+
+**Shokhboz Nabiev**
+- GitHub: [@falkoniydev](https://github.com/falkoniydev)
+- Telegram: [@falkoniydev](https://t.me/falkoniydev)
+- Email: falkoniydev@gmail.com
+
+<div align="center">
+
+**[View Demo](https://companies-one.vercel.app/login)** • **[Report Bug](https://github.com/falkoniydev/companies/issues)** • **[Request Feature](https://github.com/falkoniydev/companies/issues)**
+
+</div>
+
+---
+
+<div align="center">
+  Made with ❤️ by Shokhboz Nabiev
+</div>
