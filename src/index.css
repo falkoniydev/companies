@@ -35,3 +35,11 @@ body {
 	text-align: center;
 	margin-top: 16px;
 }
+
+.login,
+.register {
+	background-image: url("/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}

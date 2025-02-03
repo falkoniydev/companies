@@ -33,7 +33,7 @@ const Login: React.FC = () => {
 
 	return (
 		<div className="relative min-h-screen flex items-center justify-center bg-black py-12 px-4 sm:px-6 lg:px-8">
-			<div className="absolute inset-0 bg-[url('./bg.jpg')] bg-no-repeat bg-cover bg-bottom opacity-[0.4]"></div>
+			<div className="absolute inset-0 bg-[url('./bg.jpg')] bg-no-repeat bg-cover bg-bottom opacity-[0.4] login"></div>
 			<div className="relative z-10 w-full max-w-md">
 				<Card className="w-full">
 					<h2
